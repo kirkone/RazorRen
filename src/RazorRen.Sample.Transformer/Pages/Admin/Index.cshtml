@@ -1,0 +1,15 @@
+﻿@page
+@model Admin.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<p>Secret Admin Page!</p>
+
+<a asp-page-handler="cleanup">Cleanup</a>
+
+<a asp-page-handler="render">Render</a>
+
+<a asp-page-handler="publish">Publish</a>
